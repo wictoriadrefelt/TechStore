@@ -1,10 +1,287 @@
-*{
+body {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    /*justify-content: space-between; */
+    position: fixed;
+    margin: 0%;
+    right: 0px;
+    top: 0px;
+    left:0px;
+    
+    
+    
+}
+
+.techStoreDiv {
+    margin-top: 5px;
+    margin-left: 10px;
+   color: white;
+   flex:1 1 200px;
+   border: 1px solid black;
+   display: flex;
+   font-size: 2.5rem;
+   text-decoration: none;
+   
+}
+
+#number {
+    
+}
+
+.numberOfProductsCount {
+    align-items:flex-end;
+    width: 40px;
+    font-size: 40px;
+    background-color: rgb(221, 90, 90);
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 15px;
+    border: 1 px solid black;
+}
+
+.cartIcon {
+    flex: 1;
+    width: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding-inline-start: 2em;
+    padding-top: 5px;
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #fff;
+}
+#cart-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#cart-btn :hover{
+    background: gray;
+    color: honeydew;
+}
+
+.cartImage {
+    height: 40px;
+    width: 40px;
+    margin-top: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.carddiv {
+    flex:auto;
+    text-align: center;
+}
+
+.imgdiv {
+    margin-top: 20px;
+    width: auto;
+    height: 410px;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: 400px;
+    color: #fff;
+}
+
+.titlediv {
+   margin-top: 50px;
+   font-size: 1.5rem;
+} 
+.btndiv {
+    display: inline-flex;
+    margin-top: 30px;
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(73, 135, 216);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.cartImageInMain{
+    width: 1.5rem;
+    height: auto;
+    color:#fff;
+    margin-right: 30px;
+    margin-left:20px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.text {
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+
+/* 
+h2 {
+    font-size: 1.5em;
+    margin-block-start: 3em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    display: flex;
+    font-size: 1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price {
+    font-weight: bold;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.kundvagn {
+    display: flex;
+    background: #4f9de6;
+    border: 10px #4f9de6 solid;
+    color: white;
+    border-radius: 10px;
+    width: 14em;
+}
+
+.cart2 {
+    flex: 1;
+}
+
+.läggiKV {
+    flex: 3;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 body, html {
+    text-align: center;
+}
+
+
+.firstname {
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.articles {
+    display: flex;
+    flex-direction: center;
+    height: 60%;
+    justify-content: center;
+    
+
+}
+
+.front {
+    background-color: #f2f2f2;
+    margin: 20px;
+    border-radius: 8px;
+    outline-style: groove;
+    outline-color: blue;
+}
+
+
+
+.img1 {
+    width: 150px;
+    margin: 20px;
+
+}
+.img2 {
+    width: 230px;
+    margin: 20px;
+
+}
+.img3 {
+    width: 130px;
+    margin: 20px;
+
+}
+.img4 {
+    width: 150px;
+    margin: 20px;
+
+}
+
+.button {
+    background-color: #A25127;
+    width: 100px;
+    display: flex;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    
     
 }
+
+.smallcart {
+    background-color: cornflowerblue;
+    height: 40px;
+    width: 200px;
+   margin-bottom: 100px;
+   margin-top: 40px;
+   font-family: 'Roboto', sans-serif;
+   border-radius: 10px;
+  
+
+
+}
+
+.total {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+ */
+
+
+/* phone */
+
+/* @media (max-width: 600px) {
+    
+
